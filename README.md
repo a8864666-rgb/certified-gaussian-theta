@@ -1,5 +1,11 @@
 # Certified Gaussian Theta Framework
 
+## Latest release
+
+The latest software artifact is `v2.1-certified-near-boundary`, which adds near-boundary reproducibility experiments for the positive-real nome path \(q=e^{-m}\to1^-\).
+
+The manuscript is submitted separately through the journal submission system. This repository contains the software artifact, reproducibility scripts, and CSV outputs.
+
 This repository contains the reference implementation and reproducibility scripts for the manuscript:
 
 **A Certified Recurrence Framework for Gaussian Theta Sums: Tail--Roundoff Enclosures and Regime-Aware Transformation**
