@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Certified Gaussian Theta Sums: v2.1 certified near-boundary artifact"
+message: "If you use this software artifact, please cite the associated manuscript and this release."
+type: software
+authors:
+  - family-names: "Lau"
+    given-names: "Thiat-ui"
+version: "2.1.0"
+date-released: "2026-06-08"
+repository-code: "https://github.com/a8864666-rgb/certified-gaussian-theta"
+abstract: "Reference implementation for a certified recurrence framework for positive-real Gaussian theta sums with exact-weight rational shifts."
