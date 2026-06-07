@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{c c c c c c c c c c}
+\hline
+$m$ & $a$ & $D$ & $\Delta$ & $\Delta_{\mathrm{high}}$ & base & high & $-\log_{10}\Delta S$ & $-\log_{10}(R_\Delta+R_{\Delta_{\mathrm{high}}})$ & status \\
+\hline
+$10^{-4}$ & $0$ & 1000 & 50 & 150 & transformed & transformed & 1080.1 & 1057.0 & pass \\
+$1$ & $0$ & 1000 & 50 & 150 & transformed & transformed & 1080.6 & 1058.7 & pass \\
+$100$ & $\frac12$ & 1000 & 50 & 150 & direct & direct & 1091.9 & 1069.6 & pass \\
+\hline
+\end{tabular}
+\caption{Guard-precision stability test comparing computations with $\Delta=50$ and $\Delta_{\mathrm{high}}=150$.}
+\label{tab:guard-stability}
+\end{table}

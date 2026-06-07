@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{c c c c c c c c}
+\hline
+$m$ & $a$ & $D$ & regime & $N$ & $-\log_{10}\Delta_{\mathrm{ref}}$ & $-\log_{10}R_{\mathrm{total}}$ & status \\
+\hline
+$10^{-4}$ & $0$ & 1000 & transformed & 1 & 1079.4 & 1057.0 & pass \\
+$1$ & $0$ & 1000 & transformed & 16 & 1080.6 & 1058.7 & pass \\
+$100$ & $\frac12$ & 1000 & direct & 5 & 1091.9 & 1069.6 & pass \\
+\hline
+\end{tabular}
+\caption{Numerical comparison with high-precision mpmath reference values. The comparison is used as an external sanity check, not as the source of certification.}
+\label{tab:reference-comparison}
+\end{table}
